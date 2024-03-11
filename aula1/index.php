@@ -96,4 +96,20 @@ echo "<hr" , match($page){
     default => "Nenhum dos casos",
 };
 
-?>
+
+
+$i = 0;
+
+$j = 0;
+
+for( ; $i<10; ){
+
+    echo "i = $i | j = $j";
+    $i++;
+    $j++;
+}
+
+
+
+
+?>;
