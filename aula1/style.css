@@ -1,0 +1,31 @@
+body{
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+main, footer{
+    padding: 10px 20px;
+}
+ul{
+    background-image: linear-gradient(to top, rgb(3, 30, 100),rgb(20, 68, 192) );
+    margin: 0;
+}
+ul a{text-decoration: none;}
+
+li{
+    display: inline-block;
+    color: #FFF;
+    padding: 5px;
+    font-weight: bold;
+}
+
+li:hover{background-image: linear-gradient(to bottom, rgb(3, 30, 100),rgb(20, 68, 192) );}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #ccc;
+    text-align: center;
+}
